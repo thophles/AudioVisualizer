@@ -1,0 +1,4 @@
+ofxBeat
+ofxFX
+ofxFft
+ofxFluid
