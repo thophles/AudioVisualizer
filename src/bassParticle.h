@@ -12,6 +12,7 @@ public:
     void update();
     void draw();
     
+    
     glm::vec3 position;
     glm::vec3 velocity;
     glm::vec3 acceleration;
@@ -20,6 +21,7 @@ public:
     glm::vec3 angularAcceleration;
     
     int dim;
+    int res;
    
     
     int x;
@@ -27,6 +29,7 @@ public:
     float speedY;
     float speedX;
     ofColor color;
+    
     
 };
 

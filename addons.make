@@ -1,4 +1,3 @@
 ofxBeat
 ofxFX
 ofxFft
-ofxFluid

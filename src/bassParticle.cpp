@@ -21,6 +21,8 @@ void bassParticle::setup(){
     
     color.set(ofRandom(200),ofRandom(255),ofRandom(255));
     
+     res = 10;
+    
     
 }
 
@@ -74,10 +76,11 @@ void bassParticle::draw()
     ofRotateXDeg(orientation.x);
     ofRotateYDeg(orientation.y);
     ofRotateZDeg(orientation.z);
-    
+    ofSetSphereResolution(res);
     ofDrawSphere(dim);
     ofPopMatrix();
  
 }
+
 
 

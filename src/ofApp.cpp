@@ -27,26 +27,14 @@ void ofApp::update(){
 void ofApp::draw(){
     ofSetBackgroundColor(255, 255, 255);
     ofEnableBlendMode(OF_BLENDMODE_ADD);
-    bass.draw();
-    mid.draw();
+    light.enable();
     highRange.draw();
+    mid.draw();
+    bass.draw();
+    light.disable();
     
 //    FFT::fft().drawBars();
 //    FFT::fft().drawDebug();
-    
-    
-    
 }
 
-void ofApp::keyPressed(int key)
-{
-    
-    if(key=='q'){
-        FFT::fft().setVolumeRange(100);
-        FFT::fft().setNormalize(false);
-    }
-    if(key=='r'){
-        FFT::fft().setNormalize(true);
-    }
-}
 

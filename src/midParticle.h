@@ -11,12 +11,9 @@ public:
     void update();
     void draw();
     
-    
     glm::vec3 midPos;
     glm::vec3 midVec;
     glm::vec3 midAcc;
-    
-    
     
     
     ofColor midColor;
@@ -24,7 +21,6 @@ public:
     glm::vec3 midOri;
     glm::vec3 midAng;
     glm::vec3 midAngAcc;
-    
     ofTexture midText;
     
     

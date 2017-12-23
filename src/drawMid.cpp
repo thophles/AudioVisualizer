@@ -54,7 +54,6 @@ void drawMid::update()
 
 void drawMid::draw()
 {
-    float mid = FFT::fft().getMidVal();
     ofEnableBlendMode(OF_BLENDMODE_ADD);
     for (midParticle& p: midParticles)
     {
@@ -70,7 +69,7 @@ void drawMid::makeParticle(float x, float y) {
     
     midParticle p;
     p.midPos.x = ofRandom(ofGetWidth());
-    p.midPos.y = ofRandom(ofGetWidth());
+    p.midPos.y = ofRandom(ofGetHeight());
     p.midPos.z = 0;
     p.midVec.x = mid * 5;
     p.midVec.y = sin(hihat);
@@ -81,7 +80,7 @@ void drawMid::makeParticle(float x, float y) {
     p.midAng.x = 0;
     p.midAng.y = 0;
     p.midAng.z = ofRandom(-2, 2);
-    p.midColor = ofColor(mid, ofRandom(mid * 5), mid * 10);
+    p.midColor = ofColor(mid, ofRandom(mid * 5), mid * 18);
     std::size_t randomTextureIndex = ofRandom(0, midTextures.size());
     p.midText = midTextures[randomTextureIndex];
     midParticles.push_back(p);

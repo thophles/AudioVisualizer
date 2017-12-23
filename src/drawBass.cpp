@@ -61,6 +61,7 @@ void drawBass::createParticle(float x, float y)
     b.velocity.z = 0;
     b.speedX = 0;
     b.speedY = 0;
+    b.res = bass * 2;
     b.acceleration.x = bass * 5;;
     b.acceleration.y = 0;
     b.acceleration.z = 5;

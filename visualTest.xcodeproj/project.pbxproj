@@ -9,70 +9,6 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>C279B11BAEFB3648DFC8AF1E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxFluid.h</string>
-				<key>path</key>
-				<string>../projectGenerator/addons/ofxFluid/src/ofxFluid.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>331B2291D2642CA1A93D922A</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>17BF628CF774982DF119E73E</string>
-					<string>C279B11BAEFB3648DFC8AF1E</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>AC589A74CE1B327ED3EED72A</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>331B2291D2642CA1A93D922A</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxFluid</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>687DB5B854C629E6AEC3BED9</key>
-			<dict>
-				<key>fileRef</key>
-				<string>17BF628CF774982DF119E73E</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>17BF628CF774982DF119E73E</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxFluid.cpp</string>
-				<key>path</key>
-				<string>../projectGenerator/addons/ofxFluid/src/ofxFluid.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
 			<key>FA8CEDA1D49A7F0A444CB203</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -1620,7 +1556,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1693,7 +1628,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -1736,7 +1670,6 @@ fi
 					<string>5B3BFE89BB3B98E8FC2F783F</string>
 					<string>CABF1A23B637491112B10A00</string>
 					<string>BBC2B4228932C2AACC6701CF</string>
-					<string>AC589A74CE1B327ED3EED72A</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -1904,7 +1837,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -1975,7 +1907,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -2049,7 +1980,6 @@ fi
 					<string>E19BF0E3D66ACE4FE94122B9</string>
 					<string>05435FC28FBC5FE77202EC60</string>
 					<string>D36DB7AD51CED10DFFBAF1A6</string>
-					<string>687DB5B854C629E6AEC3BED9</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -2148,7 +2078,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -2204,7 +2133,6 @@ fi
 						<string>../projectGenerator/addons/ofxFft/libs/fftw/lib</string>
 						<string>../projectGenerator/addons/ofxFft/libs/kiss</string>
 						<string>../projectGenerator/addons/ofxFft/src</string>
-						<string>../projectGenerator/addons/ofxFluid/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
